@@ -55,7 +55,6 @@ li a:hover {
 <p id="demo"></p>
 
 <script>
-getRndInteger(0,2)
 var paragraphs = [
   "Null0",
   "Null1",
@@ -64,7 +63,7 @@ var paragraphs = [
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var whichpara = getRndInteger
+var whichpara = getRndInteger(0,2)
 document.getElementById("demo").innerHTML = paragraphs[whichpara];
 </script>
 </body>
