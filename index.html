@@ -62,7 +62,7 @@ var paragraphs = [
   "Null2"
 ];
 function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 document.getElementById("demo").innerHTML = paragraphs[getRndInteger];
 </script>
