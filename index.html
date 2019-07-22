@@ -39,18 +39,31 @@ li a:hover {
   background-color: white;
 }
 </style>
-<title>Home</title>
+<title>Landing Page</title>
 </head>
 <body>
   
 <ul>
-    <li><a class="active" href="index">Home</a></li>
-    <li><a href="s">S</a></li>
-    <li><a href="krysal">Krysal</a></li>
-    <li><a href="cd">crimsonDestroyer</a></li>
-    <li><a href="about">About</a></li>
+    <li><a class="active" href="Players/index">Players Home</a></li>
   </ul>
-<h1>Hey yall.</h1>
-<p>Welcome To AudioBlogs. Kind of simple. You can ask me (Gnome#3858) to make you a page. But only if you make AudioLogs talking about farragfiction farragnarok bullshit. Its like 11 o'clock, idk what im doing. I'll try to keep this as neat and organized as possible.</p>
+<h1>Welcome.</h1>
+<p>The Audioblogs are the place to be,<br>Theres so much to do, and so much to see.<br> oh my god this is so cheesy...<p>
+</p>
+<p>Actually, ill let someone else explain it.</p>
+
+
+<p id="demo"></p>
+
+<script>
+var paragraphs = [
+  "Null0",
+  "Null1",
+  "Null2"
+];
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+document.getElementById("demo").innerHTML = getRndInteger;
+</script>
 </body>
 </html>
